@@ -7,21 +7,23 @@
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Best Food Spots in Hartford!</title>
-	<img src="more_tech.png" alt="HTML" style="width:100%; height:350px; background-size: 100%">
+    <title>Carousel Template for Bootstrap</title>
 	<!--BOOTSTRAP IMPORTS BELOW-->
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" rel="stylesheet">
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js" rel="stylesheet">
+    
+	<!-- Bootstrap core CSS -->
+    <link href="../../../../dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="jumbotron.css" rel="stylesheet">
+    <link href="carousel.css" rel="stylesheet">
   </head>
-
   <body>
 
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="#">FOOD</a>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">HARTFORD</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -37,62 +39,65 @@
           </li>
           <li class="nav-item">
 		  <!--maybe insert a link to yelp here-->
-            <a class="nav-link" href="#">Discover More Restaurants</a>
+            <a class="nav-link" href="#">Discover More Cities</a>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
       </div>
     </nav>
-	 <div class="container">
-        <!-- Example row of columns -->
-		<div class="row">
-			<div class = "col-md-3">
-				<img src = "Ashley.jpg" id ="headshot">
-					<div class="row">
-					  <div class="col-md-3">
-						<h3>Ashley Guattery</h3>
-						<p><a class="btn btn-secondary" href="#" role="button"> Connect &raquo;</a></p>
-					  </div>
-					</div>
-			</div>
-			<div class = "col-md-3">
-				<img src = "Dana.jpg" id ="headshot">
-					<div class="row">
-					  <div class="col-md-3">
-						<h3>Dana McFarlane</h3>
-						<p><a class="btn btn-secondary" href="#" role="button"> Connect &raquo;</a></p>
-					  </div>
-					</div>
-			</div>
-			<div class = "col-md-3">
-				<img src = "Kali.png" id ="headshot">
-					<div class="row">
-					  <div class="col-md-3">
-						<h3>Kali Kimball</h3>
-						<p><a class="btn btn-secondary" href="https://www.linkedin.com/in/kali-kimball-25ab71122/" role="button"> Connect &raquo;</a></p>
-					  </div>
-					</div>
-			</div>
-			<div class = "col-md-3">
-				<img src = "Maria.jpg" id ="headshot">
-					<div class="row">
-					  <div class="col-md-3">
-						<h3>Maria Spano</h3>
-						<p><a class="btn btn-secondary" href="https://www.linkedin.com/in/maria-spano/" role="button"> Connect &raquo;</a></p>
-					  </div>
-					</div>
-			</div>
-        <hr>
+    </header>
 
-      </div> <!-- /container -->
-	
-	
-	<footer class="container">
-      <p>&copy; Made by: Ashley Guattery, Dana McFarlane, Kali Kimball, and Maria Spano </p>
-    </footer>
+    <main role="main">
+
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <img src = "Images/more_tech.png" style="width: 100%; height: 430px">
+      </div>
+
+
+      <!-- Marketing messaging and featurettes
+      ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+
+      <div class="container marketing">
+
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+          <div class="col-lg-3">
+            <img class="rounded-circle" src="Images/ashley.jpg" alt="Generic placeholder image" width="140" height="140">
+            <h2>Ashley Guattery</h2>
+            <p>LOB: Business Insurance></p><p>Role: Scrum master/Business analyst</p><p>Desired path: Project management, analytics, or dba; still unsure</p>
+            <p><a class="btn btn-secondary" href="https://www.linkedin.com/in/ashleyguattery/" role="button">Contact &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+		  
+          <div class="col-lg-3">
+            <img class="rounded-circle" src="Images/Dana.jpg" alt="Generic placeholder image" width="140" height="140">
+            <h2>Dana McFarlane</h2>
+            <p>LOB: eBusiness</p><p>Role: support applications for Travelers' agents</p><p>Desired path: Management position, still unsure</p>
+            <p><a class="btn btn-secondary" href="https://www.linkedin.com/in/danamcfarlane/" role="button">Contact &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+		  
+		   <div class="col-lg-3">
+            <img class="rounded-circle" src="Images/Kali.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>Kali Kimball</h2>
+           <p>LOB: Business Insurance</p><p>Role: Java Developer</p><p>Desired path: no idea</p><br><br>
+            <p><a class="btn btn-secondary" href="https://www.linkedin.com/in/kali-kimball-25ab71122/" role="button">Contact &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+		  
+          <div class="col-lg-3">
+            <img class="rounded-circle" src="Images/Maria.jpg" alt="Generic placeholder image" width="140" height="140">
+            <h2>Maria</h2>
+            <p>LOB: Corporate and Shared Services</p><p>Role: IT Intern </p><p>Desired path: Business Analyst</p> <br><br>
+            <p><a class="btn btn-secondary" href="https://www.linkedin.com/in/maria-spano/" role="button">Contact &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+      </div><!-- /.container -->
+
+
+      <!-- FOOTER -->
+	  <footer class="container">
+		<p>&copy; Made by: Ashley Guattery, Dana McFarlane, Kali Kimball, and Maria Spano </p>
+	  </footer>
+    </main>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -101,4 +106,7 @@
     <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="../../../../assets/js/vendor/popper.min.js"></script>
     <script src="../../../../dist/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../../../../assets/js/vendor/holder.min.js"></script>
   </body>
+</html>
