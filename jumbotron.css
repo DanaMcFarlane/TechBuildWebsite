@@ -3,6 +3,8 @@ p{
 	color: MidnightBlue;
 	text-align: left;
 	font-family: Arial, Helvetica, sans-serif;
+	border-style: solid;
+	border-color: white;
 }
 body {
   padding-top: 3.5rem;
