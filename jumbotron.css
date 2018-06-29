@@ -1,4 +1,7 @@
 /* Move down content because we have a fixed navbar that is 3.5rem tall */
+p{
+	color: red;
+}
 body {
   padding-top: 3.5rem;
 }
