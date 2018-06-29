@@ -13,4 +13,7 @@ We have created a website that is centered around things to do in Hartford, CT. 
 - techbuildwebsite_eat.html: places to eat in Hartford
 - techbuildwebsite_things.html: things to do in Hartford
 - techbuildwebsite_MorePlaces.html: other cities presented around the United States
+- jumbotron.css: from bootstrap, basis for techbuildwebsite.html, techbuildwebsite_MorePlaces.html
+- carousel.css: from bootstrap, basis for aboutTheCreators.html
+- album.css: from bootstrap, basis for techbuildwebsite_things.html, techbuildwebsite_eat.html
 
