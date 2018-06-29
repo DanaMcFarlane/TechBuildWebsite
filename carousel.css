@@ -40,14 +40,15 @@ body {
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
+.marketing .col-lg-3 {
   margin-bottom: 1.5rem;
   text-align: center;
 }
 .marketing h2 {
   font-weight: 400;
+  color:black;as
 }
-.marketing .col-lg-4 p {
+.marketing .col-lg-3 p {
   margin-right: .75rem;
   margin-left: .75rem;
 }
@@ -67,6 +68,9 @@ body {
   letter-spacing: -.05rem;
 }
 
+.rounded-circle{
+	border: 3px solid #021a40;
+}
 
 
 /* RESPONSIVE CSS
